@@ -6,3 +6,4 @@ select * from demo ORDER BY ID DESC LIMIT 10;
 select Name, ID from demo ORDER BY ID DESC LIMIT 10;
 select Name, ID from demo where id >= 18;
 select Name, ID from demo where id >= 18 and id <=21;
+DELETE from demo where id >= 1 and id <=10;
