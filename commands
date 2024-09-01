@@ -3,3 +3,4 @@ INSERT INTO demo (ID, Name, Hint) VALUES (43, 'this is me', 'he is preparing to 
 INSERT INTO demo VALUES (43, 'this is me', 'he is preparing to expalin about him');
 UPDATE demo SET Name='model_name' WHERE ID=27;
 select * from demo ORDER BY ID DESC LIMIT 10;
+select Name, ID from demo ORDER BY ID DESC LIMIT 10;
