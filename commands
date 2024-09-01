@@ -1,4 +1,5 @@
 SELECT * FROM demo
 INSERT INTO demo (ID, Name, Hint) VALUES (43, 'this is me', 'he is preparing to expalin about him');
 INSERT INTO demo VALUES (43, 'this is me', 'he is preparing to expalin about him');
+UPDATE demo SET Name='model_name' WHERE ID=27;
 
